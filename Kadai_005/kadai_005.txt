@@ -1,0 +1,33 @@
+C:\Users\愛枝>cd OneDrive\デスクトップ\samurai\samurai_F
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f>mkdir git_challenge
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f>cd git_challenge
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git config --global user.name"yonchin46"
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git config --global user.email"yossui1978@gmail.com"
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git init
+Initialized empty Git repository in C:/Users/愛枝/OneDrive/デス クトップ/samurai/samurai_f/git_challenge/.git/
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>echo "Hello,world!">>hello_world.txt
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git add hello_world.txt
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git commit -m"git_challengeをコミット"
+[main (root-commit) ea4922d] git_challengeをコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>echo "こんにちは、世界！">>hello_world.txt
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git add hello_world.txt
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git commit -m"git_challengeの変更をコミット”
+[main 6c98fea] git_challengeの変更をコミット”
+ 1 file changed, 1 insertion(+)
+
+C:\Users\愛枝\OneDrive\デスクトップ\samurai\samurai_f\git_challenge>git log --oneline
+6c98fea (HEAD -> main) git_challengeの変更をコミット”
+ea4922d git_challengeをコミット
